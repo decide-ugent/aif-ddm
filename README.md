@@ -15,6 +15,8 @@ This code is a modified version of the code authored by Dr. Sam Gijsen for the p
   
 
 ### Repository content
+
+```text
 .
 ├─ data_analysis/           # Exploration, summaries, and plots of datasets & results
 ├─ model_comparison/        # Metrics and routines to compare fitted models
@@ -27,7 +29,7 @@ This code is a modified version of the code authored by Dr. Sam Gijsen for the p
 ├─ models.py                # Model definitions and likelihoods
 ├─ LICENSE
 └─ README.md
-
+```
 
 ### Citation
 
