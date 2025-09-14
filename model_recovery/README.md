@@ -10,6 +10,6 @@
    ```bash
    cd parameter_recovery
    ```
-2. Run the 
+2. Run the Jupyter notebook ```synthetic_data_generator.ypnb``` to generate a simulated dataset for each of the models you are testing. Note that you must change the appropriate variables every time you run it. Each run will generate a folder with the simulated data.
    
 
