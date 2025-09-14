@@ -7,7 +7,7 @@
 
 ## How to run
 
-1. Run the Jupyter notebook ```synthetic_data_generator_model_recovery_analysis.ipynb``` to generate a simulated dataset for each of the models you are testing. Note that you must change the appropriate variables every time you run it. Each run will generate a subfolder with the corresponding simulated dataset inside a folder called ```synthetic_data```. Inside the Jupyter notebook, you will find:
+1. Run the Jupyter notebook ```synthetic_data_generator_model_recovery_analysis.ipynb``` to generate a simulated dataset for each of the models you are testing. Note that you must change the appropriate variables every time you run it. Each run will generate a subfolder with the corresponding simulated dataset inside a folder called ```synthetic_datasets```. Inside the Jupyter notebook, you will find:
    ```bash
    # Model class. Options: "RL", "RL_ddm", "RL_ddm_biased", "AI", or "AI_ddm".
    model = "RL_ddm_biased"
