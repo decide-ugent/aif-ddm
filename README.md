@@ -70,6 +70,7 @@ Alternatively, if you only use the pure AIF/HRL models (without DDMs), you may a
 }
 
 ```
+### Contact
 
-
-
+If you have any questions, please feel free to reach out at:  
+`alvaro.garridoperez (at) ugent.be`
