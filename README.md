@@ -13,15 +13,7 @@ This code is a modified version of the code authored by Dr. Sam Gijsen for the p
 
 - Analyse and visualise results
 
-### Setup
 
-Before running any code, create the conda environment using the provided environment file:
-
-```bash
-conda env create -f environment.yml
-```
-
-  
 
 ### Repository content
 
@@ -39,6 +31,39 @@ conda env create -f environment.yml
 ├─ LICENSE
 └─ README.md
 ```
+
+### Setup
+
+1. **Create the environment**  
+   Before running any code, set up the conda environment using the provided environment file:
+
+   ```bash
+   conda env create -f environment.yml
+   conda activate hssm_env
+   ```
+2. **Prepare the dataset**
+  This repository does not include datasets.
+
+  To use your own dataset, update the relevant file paths accordingly.
+
+  To reproduce the results from the [paper](https://arxiv.org/abs/2508.04435), download the 'magic carpet' dataset provided by Dr. Feher da Silva from this [repository](https://github.com/carolfs/muddled_models/tree/master/results/magic_carpet).
+
+  Place the dataset in a subdirectory named:
+
+  ```text
+  two_step_task_datasets/magic_carpet_2020_dataset/
+  ```
+
+3. **Directory structure**
+  Ensure the dataset folder is located alongside this repository, such that the structure looks like:
+  ```text
+  .
+  ├─ two_step_task_datasets/   
+  │   └─ magic_carpet_2020_dataset/
+  ├─ aif-ddm/
+
+  ```
+
 
 ### Citation
 
