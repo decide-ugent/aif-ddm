@@ -12,6 +12,15 @@ This code is a modified version of the code authored by Dr. Sam Gijsen for the p
 - Perform model and parameter recovery analysis
 
 - Analyse and visualise results
+
+### Setup
+
+Before running any code, create the conda environment using the provided environment file:
+
+```bash
+conda env create -f environment.yml
+```
+
   
 
 ### Repository content
