@@ -69,7 +69,7 @@ This code is a modified version of the code authored by Dr. Sam Gijsen for the p
 
 ### Citation
 
-If you use this code, please cite:
+If you find this code useful in your research, please consider citing:
 
 ```python
 @inproceedings{
@@ -97,7 +97,7 @@ Alternatively, if you only use the pure AIF/HRL models (without DDMs), you may a
 }
 
 ```
-### Contact
+### Contact 
 
 If you have any questions, please feel free to reach out at:  
 `alvaro.garridoperez (at) ugent.be`
