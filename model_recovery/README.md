@@ -10,12 +10,20 @@
    ```bash
    cd parameter_recovery
    ```
-2. Run the Jupyter notebook ```synthetic_data_generator.ypnb``` to generate a simulated dataset for each of the models you are testing. Note that you must change the appropriate variables every time you run it. Each run will generate a folder with the simulated data.
+2. Run the Jupyter notebook ```synthetic_data_generator.ypnb``` to generate a simulated dataset for each of the models you are testing. Note that you must change the appropriate variables every time you run it. Each run will generate a folder with the simulated data. Inside the Jupyter notebook you will find:
    ```bash
-   model = "RL_ddm_biased" #Class of model. YOU MAY CHANGE THIS to RL, RL_ddm, RL_ddm_biased, AI, or AI_ddm
-   mtype = 3 #Subclass of Active Inference model (only relevant if model = AI or AI_ddm). YOU MAY CHANGE THIS to 0, 1, 2 or 3
-   drmtype = "linear" # Drift rate model:  YOU MAY CHANGE THIS to linear, sigmoid, sigmoid_single_v_mod, sigmoid_single_v_max
-   dataset = 'magic_carpet_2020' # Name of the dataset
-   '''
+   # Model class. Options: "RL", "RL_ddm", "RL_ddm_biased", "AI", or "AI_ddm".
+   model = "RL_ddm_biased"
+   
+   # Subclass of Active Inference model (only used if model is "AI" or "AI_ddm").
+   # Options: 0, 1, 2, or 3.
+   mtype = 3
+   
+   # Drift rate model. Options: "linear", "sigmoid", "sigmoid_single_v_mod", "sigmoid_single_v_max".
+   drmtype = "linear"
+   
+   # Dataset name.
+   dataset = "magic_carpet_2020"
+   ```
    
 
