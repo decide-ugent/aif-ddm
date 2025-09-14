@@ -25,5 +25,22 @@
    # Dataset name.
    dataset = "magic_carpet_2020"
    ```
+
+3. Inside this folder, for each of the models you would like to test, run the script ``````. Note that for each combination of model used to generate data, and model used to fit the data, you must change the variables accordingly in the script:
+   ```bash
+   """---------------SELECT MODEL AND SET VARIABLES ---------------"""
+
+   # -------------Information for the model used to fit the synthetic data--------:
+   model = "AI" # RL, RL_ddm, RL_ddm_biased, AI, or AI_ddm
+   mtype = 1 # 0, 1, 2 or 3 (only relevant if model = AI or AI_ddm)
+   drmtype = "linear" # Drift rate model: linear, sigmoid, sigmoid_single_v_mod, sigmoid_single_v_max
+   
+   # -------------Information for the model used to generate the synthetic data--------:
+   model_synthetic_data_generator = "AI" # Model used to generate synthetic dataset: RL, RL_ddm, RL_ddm_biased, AI, or AI_ddm
+   mtype_synthetic_data_generator = 0 # Type of model used to generate synthetic dataset: 0, 1, 2 or 3 (only relevant if model = AI or AI_ddm)
+   drmtype_synthetic_data_generator = "linear" # Drift rate model: linear, sigmoid, sigmoid_single_v_mod, sigmoid_single_v_max
+   ```
+   
+
    
 
