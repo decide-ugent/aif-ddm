@@ -49,7 +49,16 @@ url={https://openreview.net/forum?id=riwG9aNPKR}
 Alternatively, if you only use the pure AIF/HRL models (without DDMs), you may also cite:
 
 ```python
-
+@article{gijsen2022active,
+  title={Active inference and the two-step task},
+  author={Gijsen, Sam and Grundei, Miro and Blankenburg, Felix},
+  journal={Scientific Reports},
+  volume={12},
+  number={1},
+  pages={17682},
+  year={2022},
+  publisher={Nature Publishing Group UK London}
+}
 
 ```
 
