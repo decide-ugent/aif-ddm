@@ -18,15 +18,15 @@ This code is a modified version of the code authored by Dr. Sam Gijsen for the p
 
 ```text
 .
-├─ exploratory_data_analysis/           # Scripts to perform exploratory data analysis
-├─ model_comparison/        # Metrics and routines to compare fitted models
-├─ model_fitting/           # Scripts/pipelines to fit models to data (uses MLE.py)
-├─ model_recovery/          # Simulate data from each model and fit synthetic data to check model recoverability
-├─ parameter_recovery/      # Simulate/fit scripts to check parameter recoverability
-├─ test_model_predictions/  # Generate & plot model predictions vs. empirical behavior
-├─ utils/                   # Utilities for the two-step task environment and helper functions
-├─ MLE.py                   # Maximum-likelihood fitting utilities
-├─ models.py                # Model definitions and likelihoods
+├─ exploratory_data_analysis/    # Scripts to perform exploratory data analysis
+├─ model_comparison/             # Metrics and routines to compare fitted models
+├─ model_fitting/                # Scripts/pipelines to fit models to data (uses MLE.py)
+├─ model_recovery/               # Simulate data from each model and fit synthetic data to check model recoverability
+├─ parameter_recovery/           # Simulate/fit scripts to check parameter recoverability
+├─ test_model_predictions/       # Generate & plot model predictions vs. empirical behavior
+├─ utils/                        # Utilities for the two-step task environment and helper functions
+├─ MLE.py                        # Maximum-likelihood fitting utilities
+├─ models.py                     # Model definitions and likelihoods
 ├─ LICENSE
 └─ README.md
 ```
