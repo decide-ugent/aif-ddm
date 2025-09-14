@@ -40,7 +40,7 @@ model = "RL_ddm_biased" # RL, RL_ddm,RL_ddm_biased, AI, or AI_ddm
 mtype = 3 # 0, 1, 2 or 3 (only relevant if model = AI or AI_ddm)
 drmtype = "linear" # Drift rate model: linear, sigmoid, sigmoid_single_v_mod, sigmoid_single_v_max
 n_starts = 35 # Number of random starting parameter values in parameter fitting.
-dataset = 'magic_carpet_2020' 
+dataset = 'magic_carpet_2020' # Name of the dataset
 optimizer = 'L-BFGS-B' # Nelder-Mead,L-BFGS-B or DE
 
 if model in ("RL", "RL_ddm", "RL_ddm_biased"):
