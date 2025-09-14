@@ -26,7 +26,7 @@
    dataset = "magic_carpet_2020"
    ```
 
-3. Inside this folder, for each of the models you would like to test, run the script ``````. Note that for each combination of model used to generate data, and model used to fit the data, you must change the variables accordingly in the script:
+3. Inside this folder, for each of the models you would like to test, run the script ```fit_synthetic_data_model_recovery.py```. Note that for each combination of model used to generate data, and model used to fit the data, you must change the variables accordingly in the script:
    ```bash
    """---------------SELECT MODEL AND SET VARIABLES ---------------"""
 
