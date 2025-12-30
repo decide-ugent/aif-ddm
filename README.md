@@ -72,11 +72,11 @@ This code is a modified version of the code authored by Dr. Sam Gijsen for the p
 If you find this code useful in your research, please consider citing:
 
 ```python
-@article{perez2025cognitive,
+@inproceedings{Perez2025CognitiveEI,
   title={Cognitive Effort in the Two-Step Task: An Active Inference Drift-Diffusion Model Approach},
-  author={Perez, Alvaro Garrido and Lemoine, Viktor and Pednekar, Amrapali and Khaluf, Yara and Simoens, Pieter},
-  journal={arXiv preprint arXiv:2508.04435},
-  year={2025}
+  author={Alvaro Garrido Perez and Viktor Lemoine and Amrapali Pednekar and Yara Khaluf and Pieter Simoens},
+  year={2025},
+  url={https://api.semanticscholar.org/CorpusID:280536605}
 }
 ```
 
